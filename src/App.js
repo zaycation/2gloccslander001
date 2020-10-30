@@ -1,14 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import SitewideNavbar from "./components/NavbarComp";
+import BackgroundVideo from "./components/bgvideo";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <div className="nav">
+        <SitewideNavbar />
+      </div>
+      <BackgroundVideo />
+      <div></div>
     </div>
   );
 }
