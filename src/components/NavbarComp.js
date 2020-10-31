@@ -22,9 +22,6 @@ const SitewideNavbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Container>
-      <Row>
-        <Col>
           <Navbar color="dark" dark expand="md" fixed="top">
             <NavbarBrand href="/">
               <strong>2 Glocs TV</strong>
@@ -75,9 +72,6 @@ const SitewideNavbar = (props) => {
               </Nav>
             </Collapse>
           </Navbar>
-        </Col>
-      </Row>
-    </Container>
   );
 };
 
