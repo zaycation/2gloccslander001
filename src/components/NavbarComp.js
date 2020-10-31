@@ -25,7 +25,7 @@ const SitewideNavbar = (props) => {
     <Container>
       <Row>
         <Col>
-          <Navbar color="light" light expand="md" fixed="top">
+          <Navbar color="dark" dark expand="md" fixed="top">
             <NavbarBrand href="/">
               <strong>2 Glocs TV</strong>
             </NavbarBrand>
@@ -34,41 +34,41 @@ const SitewideNavbar = (props) => {
               <Nav className="mr-auto" navbar>
                 <NavItem>
                   <NavLink href="/" className="hashlink-active">
-                    About
+                    Stream Schedule
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Schedule</NavLink>
+                  <NavLink href="/">Photography</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/">Portfolio</NavLink>
+                  <NavLink href="/">Contact</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
-                    Socials
+                    Social Media
                   </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem>
-                      <NavLink
-                        href="https://github.com/zaycation"
-                        target="_blank"
-                      >
-                        Twitter
-                      </NavLink>
+                  <DropdownMenu left>
+                    <DropdownItem
+                      tag="a"
+                      href="https://twitter.com/"
+                      target="_blank"
+                    >
+                      Twitter
                     </DropdownItem>
-                    <DropdownItem>
-                      <NavLink
-                        href="https://www.linkedin.com/in/isaiahthomas098/"
-                        target="_blank"
-                      >
-                        Instagram
-                      </NavLink>
+                    <DropdownItem
+                      tag="a"
+                      href="https://instagram.com/2glocsideways"
+                      target="_blank"
+                    >
+                      Instagram
                     </DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>
-                      <NavLink href="https://discord.gg/jVvcaU" target="_blank">
-                        Discord Server
-                      </NavLink>
+                    <DropdownItem
+                      tag="a"
+                      href="https://discord.gg/jVvcaU"
+                      target="_blank"
+                    >
+                      Discord Server
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
